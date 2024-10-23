@@ -13,12 +13,14 @@
 
 # DB
 <product>
+    
 |id|name|category|price|quantity|description|
-|--|----|--------|-----|-------|----------------|
+|--|----|--------|-----|-------|------------|
 |1|종이컵|생활용품|1000|10|물 맛이 좋아지는 종이컵|
 |2|hdmi 연결선|전자제품|10480|100|당신의 눈을 안녕하게 해줄 투모니터를 위한 최적품|
-
+    
 <db 생성 sql>
+
 ```sql
 create table product (
     id int primary key auto_increment,
